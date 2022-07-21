@@ -3,7 +3,7 @@ const pobierzWynik = document.getElementById('wynik');
 
 function policzIski() {
 
-    if (pobierzWartoscPolaTextowego === "") {
+    if (pobierzWartoscPolaTextowego.value === "") {
         pobierzWynik.innerText = "Nic nie wpisałeś";
         
     } else {
